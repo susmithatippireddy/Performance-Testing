@@ -39,6 +39,32 @@ Pull the docker image or build the docker image. Using below command
 ![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/4c32d8c7-640f-4379-b46f-b4484cd91dce)
 ![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/c5f80ca6-5d0a-4b9f-9b0b-9fe5c4405884)
 ![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/c0d45c73-c4eb-4f6b-b739-e32c21f543f3)
+![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/00e536b3-ff0a-40f0-b03f-55ceb56d888c)
+Run the docker image![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/c578e557-4540-40db-8e38-ed9e56c87e17)
+docker run -it --name jmeterimage  jmeter-docker:latest.
+Please check below  screen shot for your reference
+![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/6ceae407-2648-434b-99c1-3e00ff0f76a6)
+![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/ad6dffad-12f6-4850-a48e-2665932fa670)
+![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/a0163c39-40d0-4661-adce-4c2b7e6cb260)
+Creating Jtl and html reports![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/67c21b26-cd92-46cc-ae7b-bc12fb19d79e)
+Once executed above command we can see the results will display in cmd promt.
+Once we got the results,these results need to be copied and stored in a file
+To do that, we should be aware of the container in which these results are stored.
+docker cp 5932acd0f1b8 :/jmeter/html-report C:\Users\USER\docker\ex1\jmeterdockerhtmlv7 
+docker cp 5932acd0f1b8 :/jmeter/html-report C:\Users\USER\docker\ex1\jmeterhtmlreport1
+docker cp 5932acd0f1b8 :/jmeter.jtl  C:\Users\USER\docker\ex1\jmeter.jtl
+![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/8e618f10-2c34-4c05-9686-3f255cc5bbda)
+![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/16f4ed59-f431-404e-9ac8-59716fb11a30)
+![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/d7102477-9603-4996-813e-7a56fc0ced64)
+
+
+
+
+
+
+
+
+
 
 
 
