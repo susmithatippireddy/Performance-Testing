@@ -12,10 +12,8 @@ why Docker is Required in Docker in Performance testing tool.
 ![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/574abb77-96ab-4b2d-aab5-a13dad015a00)
 
 Pre requisites
-Docker Software
-    https://docs.docker.com/desktop/install/windows-install/
-Docker file-
- https://github.com/susmithatippireddy/Performance-Testing       
+Docker Software---https://docs.docker.com/desktop/install/windows-install/
+Docker file-------https://github.com/susmithatippireddy/Performance-Testing       
 
 
 Setting Up JMeter Docker Image![image](https://github.com/susmithatippireddy/Performance-Testing/assets/145751489/ade35b73-1cfa-46a9-9e80-46773b72090a)
